@@ -1,0 +1,36 @@
+/* add your CSS here */
+
+.animalCard{
+	width: 300px;
+	border: 3px solid #f6b278;
+	margin: 10px;
+	padding: 16px;
+}
+
+.image {
+	border-radius: 16px;
+	padding: 10px;
+}
+
+.animalInfo{
+	border: 1px solid #f6b278;
+	padding: 10px;
+}
+
+.txtFact {
+	font-style: italic;
+}
+
+.listItems {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.labels {
+	font-weight: bold;
+}
+
+.txtBrief {
+	text-align: justify;
+}
