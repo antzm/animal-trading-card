@@ -1,40 +1,49 @@
 /* add your CSS here */
 
-.animalCard	{
+.animal-card {
 	width: 300px;
 	margin: 10px;
 	padding: 10px;
 	border: 3px solid #f6b278;
+	color: #994c0b;
+	background-color: #ffebcd;
 	box-shadow: 4px 4px 8px #fab464;
+	font-family: "Palatino Linotype", "Times New Roman", serif;
 }
 
-.image {
+.animal-name {
+	text-align: center;
+	padding: 3px;
+}
+
+.animal-image {
 	border-radius: 16px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom:8px;
 }
 
-.animalInfo	{
-	padding: 10px;
-	margin: 5px;
-	border: 2px solid #f6b278;
-	background-color: #ffb464;
+.animal-info {
+	padding: 8px;
+	margin: 3px;
+	border: 1px solid #cd853f;
+	background-color: #f8c89f;
 }
 
-.txtFact {
+.info-fact {
+	padding-top: 3px;
 	font-style: italic;
 }
 
-.listItems {
+.info-list-items {
 	list-style-type: none;
 	padding: 3px;
 }
 
-.labels {
+.info-list-labels {
 	font-weight: bold;
 }
 
-.txtBrief {
+.info-brief {
 	padding: 3px;
 	text-align: justify;
 }
